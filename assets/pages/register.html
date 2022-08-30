@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="../../src/register.css">
+    <script src="../js/validation.js"></script>
+
+</head>
+
+<body>
+    <div class="box">
+        <img src="../images/login.jpg" class="user" alt="user_image">
+        <form name="registerform" onsubmit="return fun1()">
+            <p>User Name</p>
+            <input type="text" name="uname1" placeholder="Enter user name">
+            <p>Mail ID</p>
+            <input type="email" name="mail" placeholder="Enter Mail ID">
+            <p>Password</p>
+            <input type="password" name="upass1" placeholder="Enter password">
+            <p>Re-Enter Password</p>
+            <input type="password" name="upass2" placeholder="Re-enter password">
+            <div id="errorbox"></div>
+            <input type="submit" name="" value="Register">
+            <br><br>
+            <a href="login.html">Existing account ?</a>
+        </form>
+    </div>
+</body>
+
+</html>

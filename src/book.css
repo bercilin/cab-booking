@@ -1,0 +1,24 @@
+﻿
+
+body {
+  color: #FFD854;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../assets/images/road1.jpg);
+  background-size: cover;
+  overflow: hidden;
+  object-fit: cover;
+  
+  
+}
+i{
+  color: black;
+}
+
+#googleMap {
+  width: 80%;
+  height: 400px;
+  margin: 10px auto;
+}
+
+
+
