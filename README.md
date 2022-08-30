@@ -2,4 +2,4 @@
 
 Cab booking webpage done using bootstrap and minimum CSS
 
-Login and Registraton done using JavaScript
+Login and Registraton form validation done using JavaScript
